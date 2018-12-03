@@ -1,0 +1,32 @@
+.outer
+{
+    width:283px;
+}
+
+.demo_img
+{
+    height: 277px;
+    position: relative;
+    display: block;
+}
+
+.inner_img
+{
+background-color:#ffffff;    
+background-repeat:no-repeat;
+background-image: url('../img/png.png');    
+background-size: 251.8181818181818px;
+height: 100%;
+top: 0px;
+left: 0px;
+width: 100%;
+background-position: 12.59090909090909px 18.81148631789104px;
+position: absolute;
+-webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+-moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+-webkit-transition: left 0.25s ease, top 0.25s ease, width 0.25s ease, height 0.25s ease;
+-moz-transition: left 0.25s ease, top 0.25s ease, width 0.25s ease, height 0.25s ease;
+-o-transition: left 0.25s ease, top 0.25s ease, width 0.25s ease, height 0.25s ease;
+transition: left 0.25s ease, top 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
